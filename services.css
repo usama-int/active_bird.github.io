@@ -1,0 +1,119 @@
+/* Global Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    background-color: #9b9090;
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Header Styles */
+
+header {
+    background-color: #43768d;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    max-width: 120rem;
+    margin: 0 auto;
+    
+}
+
+.logo a {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 3rem;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 2.5rem;
+    height: 0.3rem;
+    background-color: #333333;
+    margin: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+/* Hero Section Styles */
+
+.hero {
+    background-image: url('original.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-container {
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 6rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.hero h2 {
+    font-size: 2.8rem;
+    margin-bottom: 3rem;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 1.5rem 3rem;
+    border-radius: 3rem;
+    background-color: #3cbddd;
+    color: #fff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: #e2431e;
+}
